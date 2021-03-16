@@ -1,0 +1,141 @@
+
+
+.container {
+  width: 50%;
+  margin: auto;
+  height: 70vh;
+ 
+}
+
+.container-fluid{
+  width: 50%;
+  margin: auto;
+  height: 70vh;
+}
+
+.row{
+    text-align: center;
+}
+
+
+
+#pic {
+  height: 70vh;
+  background-image: url("./login.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#form {
+  height: 70vh;
+  background-color: pink;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: 70vh;
+}
+
+
+@media (max-width: 1400px) {
+    .container {
+      margin: auto;
+      height: 60vh;
+    }
+    #pic {
+      margin: auto;
+      height: 60vh;
+    }
+    #form {
+      height: 60vh;
+      margin: auto;
+    }
+    .container-fluid {
+      margin: auto;
+      height: 60vh;
+    }
+  }
+
+@media (max-width: 1200px) {
+  .container {
+    margin: auto;
+    height: 50vh;
+  }
+  #pic {
+    margin: auto;
+    height: 50vh;
+  }
+  #form {
+    height: 50vh;
+    margin: auto;
+  }
+  .container-fluid {
+    margin: auto;
+    height: 50vh;
+  }
+
+}
+
+@media (max-width: 1000px) {
+    .container {
+      margin: auto;
+      height: 45vh;
+    }
+    #pic {
+      margin: auto;
+      height: 45vh;
+    }
+    #form {
+      height: 45vh;
+      margin: auto;
+    }
+    .container-fluid {
+      margin: auto;
+      height: 45vh;
+    }
+
+  }
+
+@media (max-width: 767px) {
+  .container {
+    margin: auto;
+    height: 40vh;
+  }
+  #pic {
+    margin: auto;
+    height: 40vh;
+    display: none;
+  }
+  #form {
+    height: 40vh;
+    margin: auto;
+  }
+  .container-fluid {
+    margin: auto;
+    height: 40vh;
+  }
+
+}
+
+@media (max-width: 580px) {
+    .container {
+      margin: auto;
+      height: 60vh;
+    }
+    #pic {
+      display: none;
+    }
+    #form {
+      height: 60vh;
+      margin: auto;
+    }
+    .container-fluid {
+      margin: auto;
+      height: 60vh;
+    }
+
+  }
+  
